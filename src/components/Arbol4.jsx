@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export const Arbol4 = ( { className } ) => {
   return (
-    <img src={arbol4} alt="Haya antártica en Hanging Moss, Oregon" className={className} />
+    <img src={arbol4} alt="Haya antartica en Hanging Moss, Oregon" className={className} />
   )
 }
 

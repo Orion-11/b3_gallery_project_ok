@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export const Arbol2 = ( { className } ) => {
   return (
-    <img src={arbol2} alt="Flamboyán, Brasil" className={className} />
+    <img src={arbol2} alt="Flamboyan, Brasil" className={className} />
   )
 }
 
