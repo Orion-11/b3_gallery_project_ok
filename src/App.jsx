@@ -1,35 +1,41 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css'
 
+import { Navigation } from './components/Navigation';
+import { Arbol1 } from './components/Arbol1';
+import { Arbol3 } from './components/Arbol3';
+import { Arbol2 } from './components/Arbol2';
+import { Arbol4 } from './components/Arbol4';
+import { Arbol5 } from './components/Arbol5';
+import { Arbol6 } from './components/Arbol6';
+
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
+      <BrowserRouter>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <h1 className='text-center my-3'>Gallery Project</h1>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+      <div className='container d-flex justifiy-content-center'>
+      <Routes>
+          <Route path='/arbol1' element = {<Arbol1 className = 'main-img-container' />} />
+          <Route path='/arbol2' element = {<Arbol2 className = 'main-img-container' />} />
+          <Route path='/arbol3' element = {<Arbol3 className = 'main-img-container' />} />
+          <Route path='/arbol4' element = {<Arbol4 className = 'main-img-container' />} />
+          <Route path='/arbol5' element = {<Arbol5 className = 'main-img-container' />} />
+          <Route path='/arbol6' element = {<Arbol6 className = 'main-img-container' />} />
+          
+        </Routes>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+      <div className='container'>
+        <Navigation />
+      </div>
+      </BrowserRouter>
 
-export default App
+
+    </>
+  );
+};
+
+export default App;
