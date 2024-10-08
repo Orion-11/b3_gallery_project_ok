@@ -18,7 +18,7 @@ function App() {
         </div>
         <div className='container d-flex justify-content-center'>
           <Routes>
-            <Route path='/arbol1' element={<Arbol1 className='main-img-container'/>} />
+            <Route path='/arbol1' element={<Arbol1 className='main-img-container'/>}/>
             <Route path='/arbol2' element={<Arbol2 className='main-img-container'/>} />
             <Route path='/arbol3' element={<Arbol3 className='main-img-container'/>} />
             <Route path='/arbol4' element={<Arbol4 className='main-img-container'/>} />
