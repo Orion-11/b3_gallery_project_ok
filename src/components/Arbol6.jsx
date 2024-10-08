@@ -1,4 +1,4 @@
-import arbol6 from '../assets/img/arbol6.jpg';
+import arbol6 from '../assets/img/arbol2.jpg';
 import PropTypes from 'prop-types';
 
 export const Arbol6 = ( { className } ) => {
