@@ -1,48 +1,48 @@
 import { Link } from 'react-router-dom';
-import { Covenas1 } from './Covenas1';
-import { Covenas2 } from './Covenas2';
-import { Covenas3 } from './Covenas3';
-import { Covenas4 } from './Covenas4';
-import { Covenas5 } from './Covenas5';
-import { Covenas6 } from './Covenas6';
+import { Arbol1 } from './Arbol1';
+import { Arbol2 } from './Arbol2';
+import { Arbol3 } from './Arbol3';
+import { Arbol4 } from './Arbol4';
+import { Arbol5 } from './Arbol5';
+import { Arbol6 } from './Arbol6';
 
 export const Navigation = () => {
   return (
     <div className='container thumbnail-container mt-2'>
-      <Link to='/covenas1' className='links'>
+      <Link to='/arbol1' className='links'>
         <figure className='thumbnail-image-size'>
-          <Covenas1 />
-          <figcaption>Coveñas 1</figcaption>
+          <Arbol1 />
+          <figcaption>Arbol 1</figcaption>
         </figure>
       </Link>
-      <Link to='/covenas2' className='links'>
+      <Link to='/arbol2' className='links'>
         <figure className='thumbnail-image-size'>
-          <Covenas2 />
-          <figcaption>Coveñas 2</figcaption>
+          <Arbol2 />
+          <figcaption>Arbol 2</figcaption>
         </figure>
       </Link>
-      <Link to='/covenas3' className='links'>
+      <Link to='/arbol3' className='links'>
         <figure className='thumbnail-image-size'>
-          <Covenas3 />
-          <figcaption>Coveñas 3</figcaption>
+          <Arbol3 />
+          <figcaption>Arbol 3</figcaption>
         </figure>
       </Link>
-      <Link to='/covenas4' className='links'>
+      <Link to='/arbol4' className='links'>
         <figure className='thumbnail-image-size'>
-          <Covenas4 />
-          <figcaption>Coveñas 4</figcaption>
+          <Arbol4 />
+          <figcaption>Arbol 4</figcaption>
         </figure>
       </Link>
-      <Link to='/covenas5' className='links'>
+      <Link to='/arbol5' className='links'>
         <figure className='thumbnail-image-size'>
-          <Covenas5 />
-          <figcaption>Coveñas 5</figcaption>
+          <Arbol5 />
+          <figcaption>Arbol 5</figcaption>
         </figure>
       </Link>
-      <Link to='/covenas6' className='links'>
+      <Link to='/arbol6' className='links'>
         <figure className='thumbnail-image-size'>
-          <Covenas6 />
-          <figcaption>Coveñas 6</figcaption>
+          <Arbol6 />
+          <figcaption>Arbol 6</figcaption>
         </figure>
       </Link>
     </div>

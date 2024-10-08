@@ -1,11 +1,11 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import { Covenas1 } from './components/Covenas1';
-import { Covenas2 } from './components/Covenas2';
-import { Covenas3 } from './components/Covenas3';
-import { Covenas4 } from './components/Covenas4';
-import { Covenas5 } from './components/Covenas5';
-import { Covenas6 } from './components/Covenas6';
+import { Arbol1 } from './components/Arbol1';
+import { Arbol2 } from './components/Arbol2';
+import { Arbol3 } from './components/Arbol3';
+import { Arbol4 } from './components/Arbol4';
+import { Arbol5 } from './components/Arbol5';
+import { Arbol6 } from './components/Arbol6';
 import { Navigation } from './components/Navigation';
 
 function App() {
@@ -18,12 +18,12 @@ function App() {
         </div>
         <div className='container d-flex justify-content-center'>
           <Routes>
-            <Route path='/covenas1' element={<Covenas1 className='main-img-container'/>} />
-            <Route path='/covenas2' element={<Covenas2 className='main-img-container'/>} />
-            <Route path='/covenas3' element={<Covenas3 className='main-img-container'/>} />
-            <Route path='/covenas4' element={<Covenas4 className='main-img-container'/>} />
-            <Route path='/covenas5' element={<Covenas5 className='main-img-container'/>} />
-            <Route path='/covenas6' element={<Covenas6 className='main-img-container'/>} />
+            <Route path='/arbol1' element={<Arbol1 className='main-img-container'/>} />
+            <Route path='/arbol2' element={<Arbol2 className='main-img-container'/>} />
+            <Route path='/arbol3' element={<Arbol3 className='main-img-container'/>} />
+            <Route path='/arbol4' element={<Arbol4 className='main-img-container'/>} />
+            <Route path='/arbol5' element={<Arbol5 className='main-img-container'/>} />
+            <Route path='/arbol6' element={<Arbol6 className='main-img-container'/>} />
           </Routes>
         </div>
         <div className='container'>
